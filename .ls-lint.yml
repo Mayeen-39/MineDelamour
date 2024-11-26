@@ -1,0 +1,7 @@
+ls:
+  .js: kebab-case
+  .ts: kebab-case
+  .json: kebab-case
+rules:
+  kebab-case:
+    regex: "^[a-z0-9]+(-[a-z0-9]+)*$"
