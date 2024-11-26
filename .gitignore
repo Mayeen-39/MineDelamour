@@ -1,15 +1,7 @@
-# Node modules (if you’re using Node.js)
-node_modules/
-
-# Environment variables
+__pycache__
+*.pytest_cache
+venv/
 .env
-
-# Logs
-*.log
-
-# VSCode settings
-.vscode/
-
-# System files
-.DS_Store
-Thumbs.db
+*.db
+*.idea
+*.ruff_cache
